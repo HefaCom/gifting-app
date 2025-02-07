@@ -84,16 +84,17 @@ export default function Home() {
           <Button asChild size="lg" className="w-full sm:w-auto">
             <Link href="/auth/sign-in">Sign In</Link>
           </Button>
-          <Button asChild variant="outline" size="lg" className="w-full sm:w-auto">
+          {/* <Button asChild variant="outline" size="lg" className="w-full sm:w-auto">
             <Link href="/auth/sign-up">Sign Up</Link>
-          </Button>
+          </Button> */}
           <Button
             asChild
             variant="ghost"
             size="lg"
             className="flex items-center gap-2 w-full sm:w-auto"
           >
-            <Link href="/auth/admin/sign-in">
+            <Link href="#">
+            {/* /auth/admin/sign-in */}
               <Shield className="h-4 w-4" />
               Admin Sign In
             </Link>

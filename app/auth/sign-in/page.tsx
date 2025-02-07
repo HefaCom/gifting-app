@@ -156,15 +156,16 @@ export default function SignIn() {
                   <span className="text-sm text-muted-foreground">
                     Don't have an account?{" "}
                   </span>
-                  <Link
+                  {/* <Link
                     href="/auth/sign-up"
                     className="text-sm font-medium text-primary hover:underline"
                   >
                     Sign Up
-                  </Link>
+                  </Link> */}
                 </div>
                 <Link
-                  href="/auth/admin/sign-in"
+                  href="#"
+                  // /auth/admin/sign-in
                   className="inline-flex items-center justify-center text-sm font-medium text-muted-foreground hover:text-primary"
                 >
                   <Shield className="h-4 w-4 mr-2" />
